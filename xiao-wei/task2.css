@@ -1,0 +1,159 @@
+body
+{
+	background-color:black;
+	font-family: "Microsoft Yahei";
+}
+#whole-page
+{
+	margin-right:5%;
+	margin-left:5%;
+	background-color:#DCDCDC;
+}
+p{
+	text-indent: 2em;
+	line-height: 1em;
+}
+#page-top
+{
+	width:100%;
+	background-color: #2F4F4F;
+	position:relative;
+}
+#libox span
+{
+	color:white;
+}
+#logo-imge
+{
+	width:60px;
+	height:60px;
+	margin:10px 40px;
+}
+
+#ul1{
+	position: absolute;
+	right:5px;
+	bottom:50%;
+	height:20px;
+	margin-bottom: -10px;
+}
+#ul1 li{
+	display:inline;
+	margin:8px;
+	color: white;
+}
+#ul1 li a{
+	text-decoration: none;
+}
+#first-paper,#second-paper,#photo,#last-paper,#first-form{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 20px 30px;
+	box-shadow: 3px 3px #888888
+}
+.sec-head{
+	color:#888888
+}
+.author{
+	color:#888888;
+	font-size: 0.8em;
+	text-indent:0;
+}
+#photo p
+{
+	display: inline-block;
+}
+#photo .qwe
+{
+	text-align:center;
+	border:1px solid black;
+	width:180px;
+	font-size: 80%;
+	margin-bottom:20px;
+}
+#photo img
+{
+	width: 100px;
+	height: 80px;
+}
+
+#firse-table 
+{
+	border-collapse: collapse;
+	width:100%;
+	/*border: 1px solid gray;*/
+}
+#firse-table th
+{
+	background-color: black;
+	color:white;
+}
+#firse-table tfoot
+{
+	background-color: #C0C0C0;
+}
+
+#first-form form
+{
+	font-size: 80%;
+	width:950px;
+	height: 250px;
+	position: relative;
+	left:20%;
+}
+
+#first-form div
+{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#first-form .laft-bar
+{
+	float:left;
+	width:250px;
+
+	text-align: right;
+	margin-right: 20px;
+}
+#first-form textarea
+{
+	width:300px;
+	height:50px;
+	max-height: 100px;
+	max-width: 500px
+}
+.choose input
+{
+	vertical-align: -2px;
+}
+footer
+{
+	height:100px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+footer p
+{
+	font-size: 0.8em;
+	line-height: 100px;
+	height:100px;
+}
+#first-form
+{
+	position:relative;
+	height:350px;
+}
+#sub
+{
+	position: absolute;
+
+	width:800px;
+	height:30px;
+	left:50%;
+	margin-left: -400px;
+	background-color: #AFEEEE;
+	border-radius: 10px;
+}
